@@ -7,7 +7,7 @@ export const Bio = {
   roles: ["Mern Stack Developer", "blockchain enthusiast", "Programmer"],
   description:
     "A dedicated full Mern stack developer with an intermediate level of expertise.I also possess knowledge of blockchain technology, primarily focusing on the MERN stack, and I am actively engaged in project practice.I have a passion for crafting interactive and user-friendly web applications.I am eager to collaborate with a team on real-time projects. ",
-  github: "https://github.com/usmanbscs17",
+  github: "https://github.com/usman571",
   resume:
     "https://docs.google.com/document/d/1rJ3PiY2tetYtquA13-Y0gQ3pGsLSeeDeLM3vNUB9HoE/edit",
   linkedin: "https://www.linkedin.com/in/usmanbscs",
