@@ -86,7 +86,7 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
           )}
           {/* button group */}
           <div className="flex justify-end my-3 gap-3">
-            <button
+            <a
               className={`text-[12px] w-full  text-center md:text-[16px] font-semibold py-3 px-1 rounded-[8px] ${
                 project?.dull
                   ? "bg-lightTheme-bg hover:bg-lightTheme-bgLight text-lightTheme-text_secondary"
@@ -94,14 +94,14 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
               } cursor-pointer no-underline transition-all duration-500 ease`}
             >
               View Code
-            </button>
-            <button
+            </a>
+            <a
               className="w-full  text-center text-[14px] md:text-[16px]  font-semibold py-3 px-1 rounded-[8px] bg-darkTheme-primary cursor-pointer transition-all duration-500 ease"
               href={project?.webapp}
               target="new"
             >
               View Live App
-            </button>
+            </a>
           </div>
         </div>
       </div>

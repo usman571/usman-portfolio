@@ -1,12 +1,17 @@
 import votingImage from "./voting.png";
-import portfolio from "./portfolio.png";
+import xpos from "../assets/updatexpos.png";
+import tesla from "../assets/tesla.jpg";
+import fastnexa from "../assets/fastnexa.png";
+import ferrum from "../assets/ferrum.png";
 import proshop from "./proshop.png";
+import xislabs from "../assets/xislabs.png";
+import intelliscence from "../assets/intelliscence.jpeg";
 
 export const Bio = {
   name: "Muhammad Usman",
   roles: ["Mern Stack Developer", "blockchain enthusiast", "Programmer"],
   description:
-    "A dedicated full Mern stack developer with an intermediate level of expertise.I also possess knowledge of blockchain technology, primarily focusing on the MERN stack, and I am actively engaged in project practice.I have a passion for crafting interactive and user-friendly web applications.I am eager to collaborate with a team on real-time projects. ",
+    "I’m a web developer with over a year of experience, mostly focused on building the frontend side of websites and web apps using React.js, Next.js, and TypeScript. I love creating clean, responsive, and easy-to-use interfaces that people enjoy interacting with.While frontend is my main strength, I’ve also worked on the backend using Node.js and Express.js, which has helped me understand how everything connects behind the scenes. I’ve even explored some exciting stuff in blockchain—like writing smart contracts in Solidity and using tools like ethers.js and IPFS.I enjoy learning new things, building useful projects, and solving real-world problems with code. Always up for a challenge!",
   github: "https://github.com/usman571",
   resume:
     "https://docs.google.com/document/d/1rJ3PiY2tetYtquA13-Y0gQ3pGsLSeeDeLM3vNUB9HoE/edit",
@@ -63,6 +68,16 @@ export const skills = [
         image:
           "https://w7.pngwing.com/pngs/761/513/png-transparent-material-ui-logo.png",
       },
+      {
+        name: "Shadcn/ui",
+        image:
+          "https://avatars.githubusercontent.com/u/139895814?v=4",
+      },
+      {
+        name: "ethers",
+        image:
+          "https://seeklogo.com/images/E/ethers-logo-D5B86204D8-seeklogo.com.png",
+      },
     ],
   },
   {
@@ -93,11 +108,7 @@ export const skills = [
         image:
           "https://seeklogo.com/images/H/hardhat-logo-888739EBB4-seeklogo.com.png",
       },
-      {
-        name: "ethers",
-        image:
-          "https://seeklogo.com/images/E/ethers-logo-D5B86204D8-seeklogo.com.png",
-      },
+
     ],
   },
 
@@ -136,14 +147,25 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "",
-    role: "MERN Stack Developer",
-    company: "Anees Software house",
-    date: "jun 2022 - december 2023",
-    desc: "I applied my expertise in React Js, MongoDB, Node Js, Express Js, and Redux to develop comprehensive full-stack solutions. Throughout the development lifecycle, I ensured the delivery of high-quality applications and collaborated with cross-functional teams to meet project goals and deadlines",
-    skills: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+    img: `${intelliscence}`,
+    role: "Frontend Intern",
+    company: "Intelliscence",
+    date: "Feb 2024 - June 2024",
+    desc: "Contributed to the development of full-featured applications using React.js and Redux. Ensured high-quality code throughout the development lifecycle and collaborated with cross-functional teams to achieve project goals and meet deadlines.",
+    skills: ["React.js", "Tailwind CSS", "Redux"],
     doc: "",
   },
+
+  {
+    id: 1,
+    img: `${xislabs}`,
+    role: "MERN Stack Developer",
+    company: "Xislabs",
+    date: "June 2022 - Present",
+    desc: "Developed robust full-stack solutions using React.js, MongoDB, Node.js, Express.js, and Redux. Ensured high-quality application delivery throughout the development lifecycle while collaborating with cross-functional teams to meet project objectives and deadlines.",
+    skills: ["React.js", "MongoDB", "Node.js", "Express.js", "Redux"],
+    doc: "",
+  }
 ];
 
 export const education = [
@@ -177,6 +199,89 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 9,
+    title: "Xpos ERP Back Office",
+    date: "Oct 2024 - March 2025",
+    description:
+      "Xpos ERP Back Office is a feature-rich web application built to streamline and automate core business operations. It includes modules for user management, product inventory, sales tracking, and analytics reporting. With a modern UI and strong architectural foundation, the platform enables businesses to manage their workflows efficiently and make informed, data-driven decisions.",
+    image: `${xpos}`,
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "shadcn/ui",
+      "Tailwind CSS",
+      "Redux",
+      "Zod",
+      "React Hook Form",
+    ],
+    category: "Web App",
+    // github: "https://github.com/XISLABS-Git/xpos-erp-back-office-frontend",
+    webapp: "https://dev-xpos-backoffice.xislabs.com/",
+  },
+
+  {
+    id: 9,
+    title: "Fast Nexa",
+    date: "Dec 2022 - Jul 2023",
+    description:
+      "Fast Nexa is a high-performance web application developed to enhance workflow efficiency and user interaction. The platform integrates advanced form handling, real-time state management, and dynamic UI components. Built with React and TypeScript, Fast Nexa delivers a responsive and intuitive user experience, making it ideal for modern business needs.",
+    image: `${fastnexa}`,
+    tags: [
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux",
+      "Zod",
+      "React Hook Form",
+    ],
+    category: "Web App",
+    // github: "https://github.com/usmanbscs17/e-voting",
+    webapp: "https://fastnexa.com/",
+  },
+  {
+    id: 9,
+    title: "Ferrum Network",
+    date: "Dec 2022 - Jul 2023",
+    description:
+      "Ferrum Network is a blockchain-powered web application focused on decentralized finance and crypto asset management. I contributed to the frontend development by integrating blockchain APIs, building reusable UI components, and implementing efficient state management using Redux and RTK Query. The platform leverages IPFS and Fleek for decentralized storage and hosting, ensuring a secure and scalable user experience.",
+    image: `${ferrum}`,
+    tags: [
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux",
+      "ethers",
+      "IPFS",
+      "RTK Query",
+      "Fleek",
+    ],
+    category: "Web App",
+    // github: "https://github.com/usmanbscs17/e-voting",
+    webapp: "https://ferrum.network/",
+  },
+
+
+  {
+    id: 9,
+    title: "Tesla Properties",
+    date: "Dec 2022 - Jul 2023",
+    description:
+      "Tesla Properties is a modern web application designed for real estate listings and property management. It features dynamic property search, listing management, and user-friendly forms for inquiries and submissions. Built with React and TypeScript, the platform offers a sleek UI and scalable architecture, making it an efficient solution for real estate businesses.",
+    image: `${tesla}`,
+    tags: [
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux",
+      "Zod",
+      "React Hook Form",
+    ],
+    category: "Web App",
+    // github: "https://github.com/usmanbscs17/e-voting",
+    webapp: "https://teslaproperties.ae/",
+  },
+
   {
     id: 9,
     title: "e-voting",
@@ -213,17 +318,7 @@ export const projects = [
     github: "https://github.com/usmanbscs17/proshop",
     webapp: "https://podstream.netlify.app/",
   },
-  {
-    id: 0,
-    title: "portfolio",
-    date: "Apr 2023 - May 2023",
-    description: "A personal portfolio website.",
-    image: `${portfolio}`,
-    tags: ["React Js", "tailwindcss", "meterial ui"],
-    category: "web app",
-    github: "https://github.com/usmanbscs17/portfolio",
-    webapp: "https://podstream.netlify.app/",
-  },
+
 ];
 
 export const TimeLineData = [
